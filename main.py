@@ -4,21 +4,45 @@
 # Problem 1
 """
 1. first_name, is a valid name in python, because it is snake case, which is when we use '_' instead of spaces between words.
-2. 
-3.
-Your solution goes here
+2. 2nd_name, is not a valid name in python, because it doesn't begin with a letter or underscore
+3. age, is a valid name in python because it begins with a letter or underscore and doesn't include special characters
+4. total_amount, is a valid name in python because it begins with a letter or underscore and doesn't include special characters
+5. while, is not a valid name in python because it is a command in coding
+6. Student, is a valid name in python because it begins with a letter or underscore and doesn't include special characters
+7. my-variable, is not a valid name in python because it includes a hyphen, should be an underscore
+8. for, is not a valid name in python because it is a command in coding
+9. _temp, is a valid name in python because it begins with a letter or underscore and doesn't include special characters
+10. value#, is not a valid name in python because it includes a hashtag
 
 
 """
 # Problem 2
 """
-Your solution goes here
+1. calculate_total, is a valid python function name because it begins with a letter or underscore and doesn't include special characters
+2. 3rd_function, is not a valid python function name because it doesn't begin with a letter or underscore
+3. print_values, is a valid python function name because it begins with a letter or underscore and doesn't include special characters
+4. find-item, is not a valid python function name because it includes a hyphen
+5. def, is not a valid python function because def is a python command
+6. updateProfile, is a valid python function name because it begins with a letter or underscore and doesn't include special characters
+7. my_function, is a valid python function name because it begins with a letter or underscore and doesn't include special characters
+8. try, is a valid python function name because it begins with a letter or underscore and doesn't include special characters
+9. init_data, is a valid python function name because it begins with a letter or underscore and doesn't include special characters
+10.value@function, is not a valid python function name because it includes special character '@'
 
 
 """
 # Problem 3
 """
-Your solution goes here
+1. `True and False', evaluates to False because the 'and' operator returns False if either of its operands is False
+2. `5 > 3 or "apple" < "banana"`, evaluates to True because '5 > 3' is True and the 'or' operator requires at least one operand to be True
+3. `not 10 <= 20`, evaluates to False because '10 <= 20' is a True operand however the 'not' operator inverts True to False
+4. `True or 5 = 4`, evaluates to True because 'True' is True and the 'or' operator requires at least one operand to be True
+5. `"apple" != "orange" and 5`, evaluates to True because 'apple' is not the same as 'orange' and '5' evaluates to True as a nonzero integer
+6. `3 < 5 not True`, is not a valid expression because '3 < 5' evalutes to True which makes it 'True not True'. 'not True' means False so the expression becomes 'True False'.
+7. `False == (3 > 4)`, evaluates to True because '3 > 4' is False and the '==' operator means equals
+8. `10 <= "10"`, is not valid because you can't compare an integer and a string
+9. `True or not False`, evaluates to True because the 'or' operator requires at least one operand to be True. Additonally, 'not False' also means True
+10. `5 and or 4`, is not valid because you can't compare two items using both 'and' and 'or'
 
 
 """
